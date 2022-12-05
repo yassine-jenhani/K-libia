@@ -1,0 +1,154 @@
+body {
+    background-color: #1b262c;
+}
+* {
+    color: #1b262c;
+}
+ul {
+    list-style: none;
+}
+.class1 h2 {
+    text-align: center;
+    color: #1b262c;
+}
+p {
+    color: #1b262c;
+}
+.header ul {
+    margin: 10px auto 20px;
+    background-color:#bbe1fa ;
+    width: 98%;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.header ul li a {
+    text-decoration: none;
+}
+.header ul li {
+    color: #1b262c;
+    width: calc(95% / 3);
+    background-color: #0f4c75;
+    text-align: center;
+    padding: 10px;
+    margin: 0 2px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+span {
+    color: red;
+}
+hr {
+    width: 95%;
+}
+.input {
+    height: 22px;
+    display: block;
+    margin: auto;
+    width: 177px;
+    border: none;
+}
+
+section {
+    margin: 50px 0;
+}
+.form {
+    width: 35%;
+    background-color: #bbe1fa;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 0 auto;
+    -webkit-border-radius: 40px 0 40px 0;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    box-shadow:  14px 14px 20px 6px #0f4c75;
+}
+.form h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#footer {
+    background-color: #bbe1fa;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+.footer .class1 h2, .footer .class1 p, .footer .class1 ul {
+    color: #0f4c75;
+}
+footer {
+    margin: 20px 0 0;
+}
+.class1 {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
+.class2 {
+    margin: 15px auto;
+}
+.class3 {
+    margin: 20px;
+}
+.label {
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.developpeur {
+    padding: 15px;
+    color: #0f4c75;
+}
+input:focus {
+    box-shadow: 0 0 0 0 #0f4c75;
+}
+.input1 {
+    border: none;
+    width: 130px;
+    height: 33px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: block;
+    cursor: pointer;
+    background-color: #0f4c75;
+    color: #bbe1fa;
+    font-size: 17px;
+} 
+.input1:hover {
+    background-color: #1b262c;
+}
+#input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}

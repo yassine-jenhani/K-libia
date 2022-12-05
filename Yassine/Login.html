@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Kélibia </title>
+        <meta name="description" content="">
+        <link rel="StyleSheet" href="Login.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="header">
+                    <ul>
+                        <li><a href="Presentation.html"> Présentation et Actualité </a></li>
+                        <li><a href="Historique.html"> Historique </a></li>
+                        <li><a href="Login.html"> Login </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="form">
+                <div class="#form">
+                    <h2> Login </h2>
+                    <form method="post" action="">
+                        <div class="class2">
+                            <div class="label">
+                                <label> Nom <span> * </span></label>
+                            </div>
+                            <input class="input" type="text" placeholder="Entrez votre nom" name="nom" required minlength="6" maxlength="25">
+                        </div>
+                        <div class="class2">
+                            <div class="label">
+                                <label> Prénom <span> * </span> </label>
+                            </div>
+                            <input class="input" type="text" placeholder="Entrez votre prénom" name="nom" required minlength="6" maxlength="25">
+                        </div>
+                        <div class="class2">
+                            <div class="label">
+                                <label> Email <span> *    </span> </label>
+                            </div>
+                            <input class="input" type="email" name="email" pattern=".+gmail.com" required minlength="10" maxlength="40" placeholder="Entrez votre Email"> 
+                        </div>
+                        <div class="class2">
+                            <div class="label">
+                                <label> Password <span> * </span> </label>
+                            </div>
+                            <input class="input" type="password" name="password" placeholder="Password" minlength="8" maxlength="20">
+                        </div>
+                        <div class="class2">
+                            <h3> Choisissez votre état </h3>
+                                <div>
+                                    <input type="radio" name="etat" value="Kélibien" id="R1">
+                                    <label for="R1"> Kélibien </label>
+                                </div> 
+                                <br>
+                                <div>
+                                    <input type="radio" name="etat" value="Vistiteur" id="R2">
+                                    <label for="R2"> J'ai visité Kélibia </label>
+                                </div>  
+                                <br>
+                                <div>
+                                    <input type="radio" name="etat" value="Je veux visiter Kélibia" id="R3">
+                                    <label for="R3"> Je veux visiter Kélibia </label>
+                                </div> 
+                        </div>
+                        <div id="input">
+                            <input type="submit" value="Submit" class="input1">
+                            <input type="reset" value="Reset" class="input1">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="footer">
+                <div class="footer">
+                    <div class="class1">
+                        <h2> Contactez Nous</h2>
+                        <p> +216 93 360 444 </p>
+                        <p> Yassinejenhani024@gmail.com </p>
+                    </div>
+                    <div class="class1">
+                        <h2> A propos </h2>
+                        <ul>
+                            <li><a href="Presentation.html"> Présentation et Actualité </a></li>
+                            <li><a href="Historique.html"> Historique </a></li>
+                            <li><a href="Login.html"> Login </a></li>
+                        </ul>
+                    </div>
+                    <div class="class1">
+                        <h2> Ecrivez votre message ici </h2>
+                        <textarea placeholder="Votre Commentaire" cols="40" rows="5"></textarea>
+                    </div>
+                </div>
+                <hr>
+                <div class="developpeur">
+                    powered by  &#128151; Yassine jenhani 
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,114 @@
+body {
+    background-color: #1b262c;
+}
+* {
+    color: #1b262c;
+}
+ul {
+    list-style: none;
+}
+.class1 h2 {
+    text-align: center;
+    color: #1b262c;
+}
+p {
+    color: #1b262c;
+}
+hr {
+    width: 95%;
+}
+.header ul {
+    margin: 10px auto 20px;
+    background-color:#bbe1fa ;
+    width: 98%;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.header ul li a {
+    text-decoration: none;
+}
+.header ul li {
+    color: #1b262c;
+    width: calc(95% / 3);
+    background-color: #0f4c75;
+    text-align: center;
+    padding: 10px;
+    margin: 0 2px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#footer {
+    background-color: #bbe1fa;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+.footer .class1 h2, .footer .class1 p, .footer .class1 ul {
+    color: #0f4c75;
+}
+footer {
+    margin: 20px 0;
+}
+.class1 {
+    padding: 10px;
+}
+section .section ul {
+    list-style: none;
+}
+.section {
+    background-color: #bbe1fa;
+    padding: 10px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.section ul li {
+    padding: 10px;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+}
+.developpeur {
+    padding: 15px;
+    color: #0f4c75;
+}
+.class4 {
+    color: #1b262c;
+    background-color: #bbe1fa;
+    width: 25%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 12px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.class4:hover {
+    background-color: #0f4c75;
+    color: #bbe1fa;
+}
